@@ -13,11 +13,11 @@
                         <span>Add to Cart</span>
                     </button>
                     <div class="add_to_cart_quantity">
-                        <button (click)="cartService.changeProductQuantity(product, -1)">
+                        <button (click)="cartService.changeProductQuantity(product, -1)" [attr.aria-label]="'Decrease ' + product.name + ' quantity by one'">
                             <svg xmlns="http://www.w3.org/2000/svg" width="10" height="2" fill="none" viewBox="0 0 10 2"><path fill="#fff" d="M0 .375h10v1.25H0V.375Z"/></svg>
                         </button>
                         <span>{{ cartService.getProductQuantity(product) }}</span>
-                        <button (click)="cartService.changeProductQuantity(product, 1)">
+                        <button (click)="cartService.changeProductQuantity(product, 1)" [attr.aria-label]="'Increase ' + product.name + ' quantity by one'">
                             <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="none" viewBox="0 0 10 10"><path fill="#fff" d="M10 4.375H5.625V0h-1.25v4.375H0v1.25h4.375V10h1.25V5.625H10v-1.25Z"/></svg>
                         </button>
                     </div>
