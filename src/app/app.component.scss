@@ -1,0 +1,15 @@
+main {
+    padding: 5.25rem 1.25rem 1.25rem;
+    display: grid;
+    grid-template-columns: minmax(0px, 50rem) 24.375rem;
+    justify-content: center;
+    gap: 2rem;
+}
+
+@media(max-width: 43.75rem) {
+    main {
+        padding: 24px;
+        grid-template-columns: 100%;
+        gap: 1.5625rem;
+    }
+}
