@@ -1,27 +1,38 @@
-# ProductListWithCart
+# Product List With Cart
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
+This is a solution to the [Product list with cart challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-list-with-cart-5MmqLVAp_d). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Development server
+## Table of contents
+- [Screenshots](#screenhots)
+- [Features](#features)
+- [Links](#links)
+- [Built with](#built-with)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Screenshots
 
-## Code scaffolding
+Desktop view (1440px)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![Desktop view (1440px)](./src/assets/screenshots/screenshot_desktop.png)
 
-## Build
+Mobile view (440px)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![Mobile view (440px)](./src/assets/screenshots/screenshot_mobile.png)
 
-## Running unit tests
+## Features
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Users should be able to:
 
-## Running end-to-end tests
+- Add items to the cart and remove them
+- Increase/decrease the number of items in the cart
+- See an order confirmation modal when they click "Confirm Order"
+- Reset their selections when they click "Start New Order"
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Links
+- Live Site URL => https://productlistwithcart-km9.netlify.app
 
-## Further help
+## Built with
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Angular (v17)
+- SCSS
